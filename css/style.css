@@ -191,6 +191,17 @@
     max-height: 90px;
 }
 
+.navbar-light .quote{
+    font-size: 2rem; 
+    color: #fff; 
+    letter-spacing: 1px;
+}
+.sticky-top.navbar-light .quote {
+   color: #13357b; 
+}
+.sticky-top.navbar-light .rating {
+   color: #13357b !important; 
+}
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -261,6 +272,11 @@
 
     .navbar-light .navbar-brand img {
         max-height: 45px;
+    }
+
+    .navbar-light .rating{
+        color: #13357b !important;
+        font-weight: bold;
     }
 }
 

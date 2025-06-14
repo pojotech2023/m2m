@@ -43,11 +43,33 @@
         
         <!-- Navbar & Hero Start -->
         <div class="container-fluid position-relative p-0">
-            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
-                    <!-- <h1 class="m-0"><i class="fa fa-map-marker-alt me-3"></i>KASHVI</h1> -->
-                <img src="img/m2m/logo.jpeg" alt="Logo">
-                </a>
+             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                 <!-- Logo and Rating Section -->
+                <div class="d-flex flex-column align-items-center">
+                    <a href="" class="navbar-brand p-0">
+                        <img src="img/m2m/logo.jpeg" alt="Logo">
+                    </a>
+                    <!-- Rating Below Logo -->
+                    <div class="text-center mt-1">
+                        <small class="text-white fw-bold rating">Rating 4.8/5</small><br>
+                        <!-- Star Icons (Font Awesome) -->
+                        <span style="color: #FFD700;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </span>
+                    </div>
+                </div>
+
+                  <!-- Centered Text -->
+                <div class="d-none d-lg-block text-center mx-auto quote">
+                    <span class="fw-bold text-uppercase text-center">
+                        Cuddalore's No.1 Trusted Builder
+                    </span>
+                </div>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
@@ -78,118 +100,80 @@
         <!-- Header End -->
 
         <!-- Services Start -->
-        <div class="container-fluid bg-light service py-5">
-            <div class="container py-5">
-                <div class="mx-auto text-center mb-5" style="max-width: 900px;">
-                    <h5 class="section-title px-3">Searvices</h5>
-                    <h1 class="mb-0">Our Services</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-6">
-                        <div class="row g-4">
-                            <div class="col-12">
-                                <div class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0">
-                                    <div class="service-content text-end">
-                                        <h5 class="mb-4">Residential Construction</h5>
-                                        <p class="mb-1 pb-4">Building strong, beautiful homes that reflect your lifestyle and dreams.</p>
-                                    </div>
-                                    <div class="service-icon p-5">
-                                       <i class="fa fa-solid fa-building fa-4x text-primary"></i>
-                                    </div>
-                                </div>
+<div class="container-fluid bg-light service py-5">
+    <div class="container py-5">
+        <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+            <h5 class="section-title px-3">Services</h5>
+            <h1 class="mb-0">Our Services</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="bg-white border border-primary rounded p-5">
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-start mb-4">
+                            <i class="fa fa-building fa-2x text-primary me-3 mt-1"></i>
+                            <div>
+                                <h5 class="mb-1">Residential Construction</h5>
+                                <p class="mb-0">Building strong, beautiful homes that reflect your lifestyle and dreams.</p>
                             </div>
-                            <div class="col-12">
-                                <div class="service-content-inner d-flex align-items-center  bg-white border border-primary rounded p-4 pe-0">
-                                    <div class="service-content text-end">
-                                        <h5 class="mb-4">Interior Design & Execution</h5>
-                                        <p class="mb-0">Stylish, functional interiors crafted to match your taste and needs.</p>
-                                    </div>
-                                    <div class="service-icon p-5">
-                                      <i class="fa fa-solid fa-building fa-4x text-primary"></i>
-                                    </div>
-                                </div>
+                        </li>
+                        <li class="d-flex align-items-start mb-4">
+                            <i class="fa fa-paint-brush fa-2x text-primary me-3 mt-1"></i>
+                            <div>
+                                <h5 class="mb-1">Interior Design & Execution</h5>
+                                <p class="mb-0">Stylish, functional interiors crafted to match your taste and needs.</p>
                             </div>
-                            <div class="col-12">
-                                <div class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0">
-                                    <div class="service-content text-end">
-                                        <h5 class="mb-4">Renovation & Remodeling</h5>
-                                        <p class="mb-0">Modernizing existing spaces while preserving their emotional value.</p>
-                                    </div>
-                                    <div class="service-icon p-5">
-                                       <i class="fa fa-solid fa-building fa-4x text-primary"></i>
-                                    </div>
-                                </div>
+                        </li>
+                        <li class="d-flex align-items-start mb-4">
+                            <i class="fa fa-hammer fa-2x text-primary me-3 mt-1"></i>
+                            <div>
+                                <h5 class="mb-1">Renovation & Remodeling</h5>
+                                <p class="mb-0">Modernizing existing spaces while preserving their emotional value.</p>
                             </div>
-                            <div class="col-12">
-                                <div class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0">
-                                    <div class="service-content text-end">
-                                        <h5 class="mb-4">Architectural Planning</h5>
-                                        <p class="mb-0">Thoughtful and efficient designs that blend aesthetics with practicality.</p>
-                                    </div>
-                                    <div class="service-icon p-5">
-                                       <i class="fa fa-solid fa-building fa-4x text-primary"></i>
-                                    </div>
-                                </div>
+                        </li>
+                        <li class="d-flex align-items-start mb-4">
+                            <i class="fa fa-drafting-compass fa-2x text-primary me-3 mt-1"></i>
+                            <div>
+                                <h5 class="mb-1">Architectural Planning</h5>
+                                <p class="mb-0">Thoughtful and efficient designs that blend aesthetics with practicality.</p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="row g-4">
-                            <div class="col-12">
-                                <div class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
-                                    <div class="service-icon p-5">
-                                      <i class="fa fa-solid fa-building fa-4x text-primary"></i>
-                                    </div>
-                                    <div class="service-content">
-                                        <h5 class="mb-4">3D Elevation & Visualization</h5>
-                                        <p class="mb-1">See your dream home before it’s built with realistic 3D designs. </p>
-                                    </div>
-                                </div>
+                        </li>
+                        <li class="d-flex align-items-start mb-4">
+                            <i class="fa fa-cube fa-2x text-primary me-3 mt-1"></i>
+                            <div>
+                                <h5 class="mb-1">3D Elevation & Visualization</h5>
+                                <p class="mb-0">See your dream home before it’s built with realistic 3D designs.</p>
                             </div>
-                            <div class="col-12">
-                                <div class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
-                                    <div class="service-icon p-5">
-                                      <i class="fa fa-solid fa-building fa-4x text-primary"></i>
-                                    </div>
-                                    <div class="service-content">
-                                        <h5 class="mb-4">Commercial Projects</h5>
-                                        <p class="mb-0">Designing and building functional, future-ready commercial spaces.</p>
-                                    </div>
-                                </div>
+                        </li>
+                        <li class="d-flex align-items-start mb-4">
+                            <i class="fa fa-city fa-2x text-primary me-3 mt-1"></i>
+                            <div>
+                                <h5 class="mb-1">Commercial Projects</h5>
+                                <p class="mb-0">Designing and building functional, future-ready commercial spaces.</p>
                             </div>
-                            <div class="col-12">
-                                <div class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
-                                    <div class="service-icon p-5">
-                                      <i class="fa fa-solid fa-building fa-4x text-primary"></i>
-                                    </div>
-                                    <div class="service-content">
-                                        <h5 class="mb-4">Custom Villa Construction</h5>
-                                        <p class="mb-0">Premium villas built with exclusive designs and top-quality materials.</p>
-                                    </div>
-                                </div>
+                        </li>
+                        <li class="d-flex align-items-start mb-4">
+                            <i class="fa fa-home fa-2x text-primary me-3 mt-1"></i>
+                            <div>
+                                <h5 class="mb-1">Custom Villa Construction</h5>
+                                <p class="mb-0">Premium villas built with exclusive designs and top-quality materials.</p>
                             </div>
-                            <div class="col-12">
-                                <div class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0">
-                                    <div class="service-icon p-5">
-                                      <i class="fa fa-solid fa-building fa-4x text-primary"></i>
-                                    </div>
-                                    <div class="service-content">
-                                        <h5 class="mb-4">Landscaping & Outdoor Design</h5>
-                                        <p class="mb-0">Enhancing your surroundings with elegant garden and exterior concepts. </p>
-                                    </div>
-                                </div>
+                        </li>
+                        <li class="d-flex align-items-start">
+                            <i class="fa fa-tree fa-2x text-primary me-3 mt-1"></i>
+                            <div>
+                                <h5 class="mb-1">Landscaping & Outdoor Design</h5>
+                                <p class="mb-0">Enhancing your surroundings with elegant garden and exterior concepts.</p>
                             </div>
-                        </div>
-                    </div>
-                    <!-- <div class="col-12">
-                        <div class="text-center">
-                            <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="">Service More</a>
-                        </div>
-                    </div> -->
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <!-- Services End -->
+    </div>
+</div>
+<!-- Services End -->
+
 
         <!-- Testimonial Start -->
         <!-- <div class="container-fluid testimonial py-5">
