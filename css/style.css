@@ -278,6 +278,14 @@
         color: #13357b !important;
         font-weight: bold;
     }
+
+     .navbar-light .quote{
+        color: #13357b !important;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: 2px;
+         margin-bottom: 4px !important;
+    }
 }
 
 @media (min-width: 992px) {
